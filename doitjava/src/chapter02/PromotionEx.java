@@ -8,7 +8,7 @@ public class PromotionEx {
 		System.out.println(intValue);
 //		byteValue = intValue;
 		
-		char charValue = "가";
+		char charValue = '가';
 		intValue = charValue; // int <- char
 		System.out.println("가의 유니코드:"+ intValue);
 		 
@@ -17,15 +17,14 @@ public class PromotionEx {
 		System.out.println(doubleValue);
 //		intValue = doubleValue;
 		
-		
-		
-		
+		int result = intValue + byteValue;
+		System.out.println(result);
 		
 		short shortValue = 100;
-		short res = byteValue + shortValue;
+		int res = byteValue + shortValue;
 		
 		long  longValue = 10000L;
-		long res = intValue + longValue;
+		long res2 = intValue + longValue;
 
 	}
 
