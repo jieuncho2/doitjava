@@ -30,13 +30,13 @@ public class SwitchEx2 {
 				System.out.println("부장의 월급은 400만원입니다.");
 				break;
 			case "과장":
-				System.out.println("과장의 월급은 400만원입니다.");
+				System.out.println("과장의 월급은 300만원입니다.");
 				break;
 			case "대리":
-				System.out.println("대리의 월급은 400만원입니다.");
+				System.out.println("대리의 월급은 200만원입니다.");
 				break;
 			default:
-				System.out.println("일반 사람의 월급은 400만원입니다.");
+				System.out.println("일반 사람의 월급은 150만원입니다.");
 		
 		}
 
