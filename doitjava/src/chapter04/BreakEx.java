@@ -24,14 +24,14 @@ public class BreakEx {
 		}
 		
 		for(int i=0; i<3; i++) {
-			System.out.println("*");
+			System.out.print("*");
 			break;
 		}
 		System.out.println();
 		
 		for(int i=0; i<3; i++) {
 			for(int j=0; j<5; j++) {
-				System.out.println("@");
+				System.out.print("@");
 				break;
 			}
 			System.out.println();
