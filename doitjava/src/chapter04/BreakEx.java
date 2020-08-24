@@ -19,7 +19,7 @@ public class BreakEx {
 			System.out.println("반복중.." + num);
 			num++;
 			if(num>10) {
-				break; // while문을 파괴하는 break입니다. if문은 사용 불가
+				break; // while문을 파괴하는 break입니다. if문에는 사용 불가
 			}
 		}
 		
