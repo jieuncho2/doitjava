@@ -2,7 +2,7 @@ package chapter04;
 
 import java.util.Scanner;
 
-public class Zadsa {
+public class Z106p {
 
 	public static void main(String[] args) {
 		int floor;
