@@ -14,7 +14,7 @@ public class Z123p3 {
 				res = dan * times;
 				System.out.println(dan + "X" + times + "=" + res);
 			}
-			System.out.println("단이 곱하는 수보다 큽니다");
+			System.out.println("단이 곱하는 수보다 큽니다"); 
 		}
 		
 	}
