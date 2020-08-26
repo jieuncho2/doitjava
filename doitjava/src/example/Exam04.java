@@ -1,7 +1,5 @@
 package example;
 
-import java.util.Scanner;
-
 public class Exam04 {
 
 	public static void main(String[] args) {
