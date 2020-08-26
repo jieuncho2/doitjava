@@ -6,7 +6,7 @@ public class Exam02 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("정수를 입력해 주세요 ");
+		System.out.print("정수를 입력해 주세요: ");
 		int num = sc.nextInt();
 		
 		if(num%2==0) {
@@ -19,6 +19,14 @@ public class Exam02 {
 		else System.out.println("홀수2");
 		
 		System.out.println(num%2==0 ? "짝수3":"홀수3");
+		
+		String str = ""; // T
+		if(num%2==0) {
+			str = "짝수4";
+		} else {
+			str = "홀수4";
+		}
+		System.out.println(str);
 		
 		sc.close();
 	}
