@@ -5,19 +5,64 @@ import java.util.Scanner;
 public class Exam18 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int line;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("몇 줄을 출력할까요?: ");
-		int line = sc.nextInt();
+		do {
+			System.out.print("몇 줄을 출력하시겠습니까?(홀수만 입력) : ");
+		line = sc.nextInt();
+		} while (line % 2 == 0);
 		
-		for(int i=0; i<line; i++) {
-			for(int j=0; j<line; j++) {
-				if(j<line-i-1) {
+		int upLine = line/2;
+		int downLine = line - upLine;
+		
+		for(int i = 0; i < upLine; i++) {
+			System.out.print(" ");
+			for(int j = 0; j < upLine; j++) {
+				if(j < upLine - i - 1) {
 					System.out.print(" ");
+					
 				} else {
+					if(j == upLine - i - 1) {
+						System.out.print("*");
+					} else {
+						System.out.print(" ");
+					}
+				}
+				
+			}
+			for(int j = 0; j< i; j++) {
+				if(j == i - 1) {
 					System.out.print("*");
+				} else {
+					System.out.print(" ");
 				}
 			}
 			System.out.println();
 		}
+		for(int i = downLine-1;i >= 0; i--) {
+			for(int j = 0; j <downLine; j++) {
+				if(j < downLine - i - 1) {
+					System.out.print(" ");
+					
+				} else {
+					if( j == downLine - i -1) {
+						System.out.print("*");
+					}else {
+						System.out.print(" ");
+					}
+				}
+			}
+			for(int j = 0; j< i; j++) {
+				if(j == i -1) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+		}
+
 	}
+
 }
