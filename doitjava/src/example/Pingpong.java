@@ -18,10 +18,10 @@ public class Pingpong {
 		for(int i=1; i<=100; i++) {
 			System.out.print(i + " ");
 			if(i%3==0) {
-				System.out.println("Ping");
+				System.out.print("Ping");
 			}
 			if(i%5==0) {
-				System.out.println("Pong");
+				System.out.print("Pong");
 			}
 			System.out.println();
 		}
