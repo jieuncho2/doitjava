@@ -26,13 +26,13 @@ public class Exam21_2 {
 			System.out.println("컴퓨터: " + (com == 0 ? "가위" : (com==1 ? "바위" : "보")));
 			System.out.println("유저: " + (user == 0 ? "가위" : (user==1 ? "바위" : "보")));
 			if((com==GA && user==BA)||(com==BA && user==BO)||(com==BO && user==GA)) {
-				System.out.println("유저 승");
+				System.out.println("유저 승000000000000");
 				score += 100;
 			} else if(user==com) {
-				System.out.println("비김");
+				System.out.println("비김000000000000");
 				score += 10;
 			} else {
-				System.out.println("컴퓨터 승");
+				System.out.println("컴퓨터 승00000000000");
 				life--;
 			}
 			
