@@ -42,6 +42,8 @@ public class Exam21_2 {
 			
 			/* 목숨이 0이 되면 게임 종료*/
 			if(life==0) {
+				System.out.println("목숨이 0이라서 게임을 종료합니다.");
+				sc.close();
 				break;
 			}
 		}
