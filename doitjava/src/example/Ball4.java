@@ -11,6 +11,7 @@ public class Ball4 {
 		int n = 10;
 		for(i=2; i<n; i++) {
 			for() {
+				// 입력한 숫자의 절반만 돌아가면 된다
 				cnt++;
 			}
 		}
