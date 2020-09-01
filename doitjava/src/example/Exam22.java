@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class Ball {
+public class Exam22 {
 
 	public static void main(String[] args) {
 		int user, com;

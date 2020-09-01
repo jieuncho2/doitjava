@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class Ball3 {
+public class Exam23 {
 
 	public static void main(String[] args) {
 		//달의 마지막 일자를 출력하는 프로그램 작성
@@ -10,10 +10,10 @@ public class Ball3 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		int thisMonth = (int)(Math.random()*12)+1; 
 		System.out.print("몇 월?");
 		System.out.print(" > ");
-		int thisMonth = sc.nextInt();
-		int day=0;
+		thisMonth = sc.nextInt();
 		
 		switch(thisMonth) {
 		case 1:
@@ -22,15 +22,13 @@ public class Ball3 {
 		case 7:
 		case 9:
 		case 11:
-			day = 31;
+			System.out.println(thisMonth + "월은 31일까지입니다.");
 			break;
 		case 2:
-			day = 28;
+			System.out.println(thisMonth + "월은 28일까지입니다.");
 			break;
 		default:
-			day = 30;
+			System.out.println(thisMonth + "월은 30일까지입니다.");
 		}
-		System.out.println(thisMonth + "월은 " + day + "일까지입니다.");
-		sc.close();
 	}
 }
