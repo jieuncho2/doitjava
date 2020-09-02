@@ -7,13 +7,21 @@ public class Exam24 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.print("숫자를 입력해 주세요: ");
+		int n = sc.nextInt();
+		int cnt = 0;
 		
-		int n = 10;
-		for(i=2; i<n; i++) {
-			for() {
+		for(int i=2; i<=n; i++) {
+			cnt++;
+			for(int j=2; j<i/2; j++) {
 				// 입력한 숫자의 절반만 돌아가면 된다
-				cnt++;
+				if(i%j == 0) {
+					cnt--;
+					break;
+				}
 			}
 		}
+		System.out.println("입력한 숫자의 소수의 개수는 " + cnt + "개입니다");
+		sc.close();
 	}
 }
