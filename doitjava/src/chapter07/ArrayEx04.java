@@ -29,6 +29,9 @@ public class ArrayEx04 {
 		b = a;
 		System.out.println();
 		System.out.println(b);
+		
+		arr2 = new int[] {100,200,300};	//	
+//		arr2 = {10,20,30};	// 중괄호는 최초의 초기화에만 사용이 가능합니다.
 
 	}
 
