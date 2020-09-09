@@ -8,7 +8,7 @@ public class ArrayEx03_3 {
 	public static void main(String[] args) {
 		
 		int arr[] = new int[5];
-		int max = Integer.MAX_VALUE, min = Integer.MIN_VALUE;
+		int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수 5개 입력");
 		for(int i=0; i<arr.length; i++) {
