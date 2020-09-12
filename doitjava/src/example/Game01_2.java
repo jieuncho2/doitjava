@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class Exam21_2 {
+public class Game01_2 {
 	public static void main(String[] args) {
 
 		final int GA = 0;
@@ -28,7 +28,7 @@ public class Exam21_2 {
 			if((com==GA && user==BA)||(com==BA && user==BO)||(com==BO && user==GA)) {
 				System.out.println("À¯Àú ½Â000000000000");
 				score += 100;
-			} else if(user==com) {
+			} else if(com==user) {
 				System.out.println("ºñ±è000000000000");
 				score += 10;
 			} else {

@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class Exam21 {
+public class Game01 {
 	public static void main(String[] args) {
 
 		final int GA = 0;
