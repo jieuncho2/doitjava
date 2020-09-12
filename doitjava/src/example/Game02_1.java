@@ -3,7 +3,7 @@ package example;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Exam20 {
+public class Game02_1 {
 
 	public static void main(String[] args) {
 		
