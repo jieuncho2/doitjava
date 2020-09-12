@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 
  * 평균점수와 등급을 출력하세요
  */
-public class Score2 {
+public class Score02 {
 
 	public static void main(String[] args) {
 		

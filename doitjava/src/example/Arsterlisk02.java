@@ -1,6 +1,6 @@
 package example;
 
-public class Arsterlisk2 {
+public class Arsterlisk02 {
 
 	public static void main(String[] args) {
 		for(int i=0; i<5; i++) {	//	row
