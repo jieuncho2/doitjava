@@ -12,7 +12,7 @@ public class ObjCopy02 {
 		String[] arr3 = new String[2]; 
 		String[] arr4 = new String[2];
 		
-		System.arraycopy(arr1, 0, arr2, 0, 2);
+		System.arraycopy(arr1, 0, arr3, 0, 2);
 		System.arraycopy(arr2, 0, arr4, 0, 2);
 		outArr2[0]= arr3;
 		outArr2[1]= arr4;
