@@ -22,4 +22,13 @@ public class Audio implements RemoteControl {
 		}
 		System.out.println("현재 Audio 볼륨: " + this.volume);
 	}
+	
+	public void setMute(boolean mute) {
+//		this.mute = mute;
+		if(mute) {
+			System.out.println("Audio 무음 처리합니다.");
+		} else {
+			System.out.println("Audio 무음 해제합니다.");
+		}
+	}
 }
