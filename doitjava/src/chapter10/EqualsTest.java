@@ -12,6 +12,22 @@ class Student {
 	public String toString() {
 		return studentId + "," + studentName;
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Student) {
+			Student std = (Student)obj;
+			if(this.studentId == std.studentId)
+				return true;
+		} else {
+			return false;
+		}
+		return false;
+	}
+	@Override
+	public int hashCode() {
+		return studentId;
+	}
 }
 
 public class EqualsTest {
@@ -43,5 +59,11 @@ public class EqualsTest {
 		} else {
 			System.out.println("동일하지 않습니다.");
 		}
+		
+		System.out.println("studentLee의 hashCode: " + studentLee.hashCode());
+		System.out.println("studentSang의 hashCode: " + studentSang.hashCode());
+		
+		System.out.println("studentLee의 실제 주소값: " + System.identityHashCode(studentLee));
+		System.out.println("studentSang의 실제 주소값: " + System.identityHashCode(studentSang));
 	}
 }
