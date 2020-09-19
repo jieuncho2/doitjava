@@ -2,19 +2,19 @@ package chapter05;
 
 public class CalcStatic {
 
-	static double pi = 3.14159;
-	int num1 = 10;
-	static int num2 = 20;
+	static double pi = 3.14159; //Á¤Àû ¸â¹ö
+	int num1 = 10; //ÀÎ½ºÅÏ½º ¸â¹ö
+	static int num2 = 20; //ÀÎ½ºÅÏ½º ¸â¹ö
 	
-	static int plus(int x, int y) {
+	static int plus(int x, int y) { //Á¤Àû ¸â¹ö
 		return x + y;
 	}
 	
-	static int minus(int x, int y) {
+	static int minus(int x, int y) { //Á¤Àû ¸â¹ö
 		return x - y;
 	}
 	
-	int multiply(int x, int y) {
+	int multiply(int x, int y) { //ÀÎ½ºÅÏ½º ¸â¹ö
 		return x * y;
 	}
 
