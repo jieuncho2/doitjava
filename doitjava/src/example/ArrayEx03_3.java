@@ -10,7 +10,7 @@ public class ArrayEx03_3 {
 		int arr[] = new int[5];
 		int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("정수 5개 입력");
+		System.out.println("정수 5개 입력해 주세요: ");
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = sc.nextInt();
 			if(arr[i]>max) {
@@ -21,8 +21,8 @@ public class ArrayEx03_3 {
 			}
 		}
 		
-		System.out.println("Max: " + arr[arr.length-1]);
-		System.out.println("Min: " + arr[0]);
+		System.out.println("Max: " + max);
+		System.out.println("Min: " + min);
 		
 //		Arrays.sort(arr);
 //		
