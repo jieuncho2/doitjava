@@ -1,6 +1,6 @@
 package chapter08;
 
-public class AnimalEx {
+public abstract class AnimalEx {
 
 	public static void main(String[] args) {
 		Dog dog = new Dog();
@@ -9,12 +9,14 @@ public class AnimalEx {
 		cat.sound();
 		System.out.println("------------");
 		
+		//변수의 자동 타입 변환
 		Animal animal = null;
 		animal = new Dog();
 		animal.sound();
 		animal = new Cat();
 		animal.sound();
 		System.out.println("------------");
+		//메소드의 다형성
 		
 		animalSound(new Dog());
 		animalSound(new Cat());
