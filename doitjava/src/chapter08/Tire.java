@@ -1,15 +1,18 @@
 package chapter08;
 
 public class Tire {
-	public int maxRotation;
-	public int accumulatedRotation;
-	public String location;
+	//필드
+	public int maxRotation;	//최대 회전수(타이어 수명)
+	public int accumulatedRotation;	//누적 회전수
+	public String location;	//타이어 위치
 
+	//생성자
 	public Tire(String location, int maxRotation) {
 		this.location = location;
 		this.maxRotation = maxRotation;
 	}
 
+	//메소드
 	public boolean roll() {
 		++accumulatedRotation;
 		if (accumulatedRotation < maxRotation) {

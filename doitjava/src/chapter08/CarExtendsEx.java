@@ -12,7 +12,7 @@ public class CarExtendsEx {
 					car.frontLeftTire = new HankookTire("앞왼쪽", 15);
 					break;
 				case 2:
-					System.out.println("앞오른쪽 HankookTire로 교체");
+					System.out.println("앞오른쪽 KumhoTire로 교체");
 					car.frontRightTire = new KumhoTire("앞왼쪽", 13);
 					break;
 				case 3:
@@ -20,7 +20,7 @@ public class CarExtendsEx {
 					car.backLeftTire = new HankookTire("앞왼쪽", 14);
 					break;
 				case 4:
-					System.out.println("뒤오른쪽 HankookTire로 교체");
+					System.out.println("뒤오른쪽 KumhoTire로 교체");
 					car.backRightTire = new KumhoTire("앞왼쪽", 17);
 					break;
 			}
