@@ -7,6 +7,7 @@ public class ComputerExtendsEx {
 		
 		CalculatorExtends calc = new CalculatorExtends();
 		System.out.println("원면적: " + calc.areaCircle(r));
+		System.out.println();
 		
 		ComputerExtends com = new ComputerExtends();
 		System.out.println("원면적: " + com.areaCircle(r));
