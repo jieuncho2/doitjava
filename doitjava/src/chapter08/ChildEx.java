@@ -1,6 +1,6 @@
 package chapter08;
 
-public class ChildEX {
+public class ChildEx {
 
 	public static void main(String[] args) {
 		Child child = new Child();
