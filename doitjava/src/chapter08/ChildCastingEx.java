@@ -9,13 +9,13 @@ public class ChildCastingEx {
 		parent.method2();
 		
 		/*
-		 * parent.filed2 = "data2";
-		 * parent.method3();
+		 * parent.filed2 = "data2";	//불가능
+		 * parent.method3();	//불가능
 		 */
 		
 		ChildCasting child = (ChildCasting)parent;
-		child.field2 = "data2";
-		child.method3();
+		child.field2 = "data2";	//가능
+		child.method3();	//가능
 
 	}
 
