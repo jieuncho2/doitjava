@@ -2,7 +2,6 @@ package chapter08;
 
 public class GOLDCustomer extends Customer{	
 	
-	private int agentID;
 	double saleRatio;
 	
 	public GOLDCustomer(int customerID, String customerName) {
