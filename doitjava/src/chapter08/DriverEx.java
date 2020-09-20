@@ -1,6 +1,6 @@
 package chapter08;
 
-public class DruverEx {
+public class DriverEx {
 
 	public static void main(String[] args) {
 		Driver driver = new Driver();
@@ -8,8 +8,9 @@ public class DruverEx {
 		Bus bus = new Bus();
 		Taxi taxi = new Taxi();
 		
-		driver.drive(bus);
-		driver.drive(taxi);
+		//매개 변수 자동 타입 변환
+		driver.drive(bus);	//Vehivle vehicle = bus;
+		driver.drive(taxi);	//Vehivle vehicle = taxi;
 	}
 
 }
