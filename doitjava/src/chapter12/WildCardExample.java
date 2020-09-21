@@ -40,13 +40,17 @@ public class WildCardExample {
 		registerCourse(highStudentCourse);
 		System.out.println();
 		
+//		registerCourseWorker(personCourse);	(x)
+//		registerCourseWorker(workerCourse);	(x)
 		registerCourseStudent(studentCourse);
+		
 		registerCourseStudent(highStudentCourse);
 		System.out.println();
 		
-//		registerCourseWorker(personCourse);
-//		registerCourseWorker(workerCourse);
-		registerCourseStudent(studentCourse);
+		registerCourseWorker(personCourse);
+		registerCourseWorker(workerCourse);
+//		registerCourseStudent(studentCourse);	(x)
+//		registerCourseStudent(studentCourse);	(x)
 	}
 
 }
