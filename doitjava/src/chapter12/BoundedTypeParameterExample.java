@@ -3,6 +3,7 @@ package chapter12;
 public class BoundedTypeParameterExample {
 
 	public static void main(String[] args) {
+//		String str = Util.comapare("a", "b"); (x)
 		
 		int result1 = Util2.compare(10, 20);
 		System.out.println(result1);
