@@ -44,8 +44,9 @@ public class WildCardExample {
 		registerCourseStudent(highStudentCourse);
 		System.out.println();
 		
-		registerCourseWorker(personCourse);
-		registerCourseWorker(workerCourse);
+//		registerCourseWorker(personCourse);
+//		registerCourseWorker(workerCourse);
+		registerCourseStudent(studentCourse);
 	}
 
 }
