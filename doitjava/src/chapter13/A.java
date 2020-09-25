@@ -22,6 +22,7 @@ class A{
 	}
 	
 	void method() {
+		/**로컬 클래스**/
 		class D{
 			D(){System.out.println("D 객체가 생성됨");}
 			int field1;

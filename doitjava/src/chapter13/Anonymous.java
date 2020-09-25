@@ -1,7 +1,7 @@
 package chapter13;
 
 public class Anonymous {
-	//
+	//필드 초기값으로 대입
 	Person filed = new Person();
 
 	void work() {
@@ -14,6 +14,7 @@ public class Anonymous {
 	}
 
 	void method1() {
+		//로컬 변수값으로 대입
 		Person localVar = new Person() {
 			void walk() {
 				System.out.println("산책합니다.");
@@ -25,7 +26,7 @@ public class Anonymous {
 				walk();
 			}
 		};
-
+		//로컬 변수 사용
 		localVar.wake();
 	}
 
